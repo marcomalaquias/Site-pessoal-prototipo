@@ -9,44 +9,58 @@ DESCRIPTION: A premium business and portfolio theme.
 
 /* Global Styles */
 
-	body								{background:url(../images/bg.png) repeat-x #FFFFFF; font-size:12px;	font-family:'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Arial, san-serif; color:#000000;}
-	a:focus								{outline:1px dotted;}
-	a									{color:#717171; text-decoration:none;}
-	a:hover								{text-decoration:none;}
-	a span								{font-size:90%;}
-	h1									{font-size:25px;}
-	h2									{font-size:23px;}
-	h3									{font-size:21px;}
-	h4									{font-size:19px;}
-	h5									{font-size:17px;}
-	h6									{font-size:15px;}
-	ol									{list-style:decimal;}
-	ul									{list-style:disc;}
-	li									{margin-left:20px; position:relative;}
-	p,
-	li,
-	dl									{line-height:18px;}
-	p,
-	dl,
-	hr,
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6,
-	ol,
-	ul,
-	pre,
-	table,
-	address,
-	fieldset,
-	img									{margin-bottom:20px;}
-	#wrapper							{margin-top:7px;}
-	ul li ul,
-	ol li ol							{margin-bottom:0px;}
-	ol									{padding: 0 0 0 5px;}
+body								{background:url(../images/bg.png) repeat-x #FFFFFF; font-size:12px;	font-family:'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Arial, san-serif; color:#000000;}
+a:focus								{outline:1px dotted;}
+a									{color:#717171; text-decoration:none;}
+a:hover								{text-decoration:none;}
+a span								{font-size:90%;}
+h1									{font-size:25px;}
+h2									{font-size:23px;}
+h3									{font-size:21px;}
+h4									{font-size:19px;}
+h5									{font-size:17px;}
+h6									{font-size:15px;}
+ol									{list-style:decimal;}
+ul									{list-style:disc;}
+li									{margin-left:20px; position:relative;}
+p,
+li,
+dl									{line-height:18px;}
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+img									{margin-bottom:20px;}
+
+ul li ul,
+ol li ol							{margin-bottom:0px;}
+ol									{padding: 0 0 0 5px;}
+
 	
+#header, #footer {
+	margin-top:7px; 
+	width: 100%;
+}
+
+#header .grid, #footer .grid {
+	margin-left: auto;
+    margin-right: auto;
+	width: 1020px;
+}
+
+#header div.hr, #footer div.hr {margin: 0px;}
+
 /* Custom Grid */
 
 	.container_12 						{margin-left:auto; margin-right:auto; width:1020px;}
@@ -164,7 +178,7 @@ DESCRIPTION: A premium business and portfolio theme.
 
 /* Featured Image Slider */
 
-	#featured							{margin:10px 0 40px 0;}
+	#featured {margin:20px 0 40px 0;}
 	
 /* Portfolio Image Slider */
 
